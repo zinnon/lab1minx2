@@ -1,8 +1,14 @@
 #include <stdio.h>
 
-int main() {
-  if (23 > 11) {
-    printf("23 is greater than 11");
-  }  
-  return 0;
+int main(){
+	int A;
+	int B;
+	printf("Type your number:");
+	scanf("%d",&A);
+	scanf("%d",&B);
+	if (A>B){
+		printf("%d is greater than %d",A,B);
+	}
+
+	return 0;
 }
